@@ -7,24 +7,6 @@ Matheus Oliveira  - RM551155 - Mobile Development/Database <br>
 Victor Freitas    - RM99928  - Advanced Business with C#/Quality Assurance<br>
 Breno Giacoppini  - RM98695  - Artificial Intelligence <br>
 
-## NOTAS DE ATUALIZAÇÃO - SPRINT 2
-- Separação de diretórios seguindo arquitetura MVC;
-
-- Diagrama Entidade-Relacionamento e Diagrama de classes adicionados a página inicial do projeto;
-
-- Inclusão do Swagger para documentação dos endpoints
-	Link: http://localhost:8080/swagger-ui/index.html
-
-- Inclusão da classe Filial e seus respectivos repositorios e controllers;
-
-- Inclusão da classe Tendencia;
-
-- Configuração de Logger para melhor desenvolvimento;
-  
-- Atualização do modelo relacional do banco de dados;
-
-- Atualização do modelo UML.
-
 ## PROPOSTA DE SOLUÇÃO
 Com a chegada da pandemia, diversas empresas apresentaram grandes
 dificuldades em se manterem competitivas e ativas em um mundo onde a
