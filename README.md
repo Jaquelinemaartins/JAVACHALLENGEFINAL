@@ -49,13 +49,6 @@ personalizado analisará as tendências de compra de cada um individualmente,
 além de auxiliar o consumidor em sua jornada na compra de vestimentas que
 aumentarão sua autoestima e satisfação com a plataforma e-commerce.
 
-### Diagrama Entidade-Relacionamento
-![image](https://github.com/Mari-Bastet/JAVACHALLENGEFINAL/assets/82931897/3653c2ba-79b6-44c4-9f67-2372bd34cdec)
-
-
-### Diagrama de Classes
-![diagrama_classes_sprint2](https://github.com/Mari-Bastet/JAVACHALLENGEFINAL/assets/82931897/00b00f4d-54c0-41e7-afde-15003e6921aa)
-
 ## Passo a passo para rodar a aplicação
 
 1. Clone o repositório:
@@ -71,9 +64,7 @@ aumentarão sua autoestima e satisfação com a plataforma e-commerce.
 ![image](https://github.com/Mari-Bastet/JAVACHALLENGEFINAL/assets/82931897/2908161a-c66a-4491-9dae-ed100b67961e)
 
 ## Endpoints da API
-Arquivo contendo todos os endpoints feitos e testados até o momento no Postman se encontram na pasta "Documentacao".<br>
-__Também estão disponíveis pelo Swagger, conforme citado nas notas de atualização - Sprint 2.__
-
+__ENDPOINTS DISPONÍVEIS NO SWAGGER EM: http://localhost:8080/swagger-ui/index.html__
 - CLIENTES E COMPRAS <br>
  Método: GET <br>
  link: localhost:8080/clientes <br>
