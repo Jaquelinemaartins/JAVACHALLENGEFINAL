@@ -65,6 +65,7 @@ aumentarão sua autoestima e satisfação com a plataforma e-commerce.
 
 ## Endpoints da API
 __ENDPOINTS DISPONÍVEIS NO SWAGGER EM: http://localhost:8080/swagger-ui/index.html__
+Também estão disponíveis os endpoints no arquivo json na pasta 'documentacao'
 - CLIENTES E COMPRAS <br>
  Método: GET <br>
  link: localhost:8080/clientes <br>
