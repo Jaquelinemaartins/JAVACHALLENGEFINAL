@@ -14,13 +14,13 @@ steps:
   inputs:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'  # Definindo a origem como pré-instalada
+    jdkSourceOption: 'PreInstalled'  # Usar JDK pré-instalado
 
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'Path'
+    javaHomeOption: 'JDKVersion'  # Alterado para usar a versão do JDK configurada
     jdkVersionOption: '17'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
