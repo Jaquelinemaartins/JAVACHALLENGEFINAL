@@ -15,6 +15,11 @@ steps:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'  # Usar JDK pré-instalado
+    steps:
+- script: |
+    mvn clean test
+    mvn exec:java -Dexec.mainClass="com.projeto.challenge.ChallengeApplication"
+  displayName: 'Executar aplicação e mostrar resultados DML'
 
 - task: Maven@3
   inputs:
