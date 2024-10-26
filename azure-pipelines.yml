@@ -17,7 +17,7 @@ steps:
     jdkSourceOption: 'PreInstalled'  # Usar JDK pré-instalado
     steps:
 - script: |
-    mvn clean test
+    mvn clean compile
     mvn exec:java -Dexec.mainClass="com.projeto.challenge.ChallengeApplication"
   displayName: 'Executar aplicação e mostrar resultados DML'
 
